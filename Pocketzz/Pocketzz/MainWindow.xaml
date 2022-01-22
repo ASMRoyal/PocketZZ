@@ -1,0 +1,63 @@
+﻿<Window x:Name="PocketZZ1" x:Class="Pocketzz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pocketzz"
+        mc:Ignorable="d"
+        Title="PocketZZ" Height="450" Width="800" UseLayoutRounding="True" Background="Black" WindowStyle="SingleBorderWindow" Visibility="Visible" Icon="/Pocket.png">
+    <StackPanel Orientation="Vertical">
+        <Grid x:Name="PocketZZ" Background="Black" Visibility="Visible" UseLayoutRounding="True" ClipToBounds="True" Height="434" Width="800">
+            <Grid.Effect>
+                <DropShadowEffect/>
+            </Grid.Effect>
+            <Label HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top">
+                <Label Content="PocketZZ" Height="75" Width="221" Background="Black" FontSize="48" RenderTransformOrigin="0.507,0.587">
+                    <Label.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FF5B009E" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Label.Foreground>
+                </Label>
+            </Label>
+            <TextBox HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Enter IP" VerticalAlignment="Top" Width="136" Height="32" Background="Black" FontSize="20" TextChanged="TextBox_TextChanged">
+                <TextBox.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5B009E" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Foreground>
+            </TextBox>
+            <TextBox HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Enter Port" VerticalAlignment="Top" Width="137" Height="32" Background="Black" FontSize="20" TextChanged="TextBox_TextChanged">
+                <TextBox.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5B009E" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBox.Foreground>
+            </TextBox>
+            <Button Content="Start" HorizontalAlignment="Left" Margin="332,239,0,0" VerticalAlignment="Top" Height="33" Width="56" Background="Black" FontSize="20" Click="Button_Click">
+                <Button.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5B009E" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Foreground>
+            </Button>
+            <Button Content="Stop" HorizontalAlignment="Left" Margin="412,239,0,0" VerticalAlignment="Top" Height="33" Width="56" Background="Black" FontSize="20" RenderTransformOrigin="0.589,0.456">
+                <Button.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF5B009E" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Foreground>
+            </Button>
+            <Button Content="" HorizontalAlignment="Left" Margin="686,26,0,0" VerticalAlignment="Top" Height="56" Width="56" Click="Button_Click_1" Background="#FF5B009E">
+                <Button.OpacityMask>
+                    <ImageBrush ImageSource="/45466.png"/>
+                </Button.OpacityMask>
+            </Button>
+        </Grid>
+    </StackPanel>
+</Window>

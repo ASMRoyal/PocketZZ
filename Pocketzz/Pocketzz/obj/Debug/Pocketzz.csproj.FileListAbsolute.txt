@@ -1,0 +1,16 @@
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\bin\Debug\Pocketzz.exe.config
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\bin\Debug\Pocketzz.exe
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\bin\Debug\Pocketzz.pdb
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.csproj.AssemblyReference.cache
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.csproj.SuggestedBindingRedirects.cache
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\MainWindow.g.cs
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\App.g.cs
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz_MarkupCompile.cache
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz_MarkupCompile.lref
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\MainWindow.baml
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.g.resources
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.Properties.Resources.resources
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.csproj.GenerateResource.cache
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.csproj.CoreCompileInputs.cache
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.exe
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Pocketzz.pdb
