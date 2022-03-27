@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pocketzz"
         mc:Ignorable="d"
-        Title="PocketZZ" Height="450" Width="800" UseLayoutRounding="True" Background="Black" WindowStyle="SingleBorderWindow" Visibility="Visible" Icon="/Pocket.png">
+        Title="PocketZZ : Login" Height="450" Width="800" UseLayoutRounding="True" Background="Black" WindowStyle="SingleBorderWindow" Visibility="Visible" Icon="/Pocket.png" ResizeMode="NoResize">
     <StackPanel Orientation="Vertical">
-        <Grid x:Name="PocketZZ" Background="Black" Visibility="Visible" UseLayoutRounding="True" ClipToBounds="True" Height="434" Width="800">
+        <Grid x:Name="PocketZZ" Visibility="Visible" UseLayoutRounding="True" ClipToBounds="True" Height="434" Width="800" Background="#FF181735">
             <Grid.Effect>
                 <DropShadowEffect/>
             </Grid.Effect>
             <Label HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top">
-                <Label Content="PocketZZ" Height="75" Width="221" Background="Black" FontSize="48" RenderTransformOrigin="0.507,0.587">
+                <Label Content="PocketZZ" Height="75" Width="243" Background="{x:Null}" FontSize="48" RenderTransformOrigin="0.507,0.587" FontFamily="Algerian">
                     <Label.Foreground>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Black"/>
@@ -21,37 +21,12 @@
                     </Label.Foreground>
                 </Label>
             </Label>
-            <TextBox HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Enter IP" VerticalAlignment="Top" Width="136" Height="32" Background="Black" FontSize="20" TextChanged="TextBox_TextChanged">
-                <TextBox.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black"/>
-                        <GradientStop Color="#FF5B009E" Offset="1"/>
-                    </LinearGradientBrush>
-                </TextBox.Foreground>
-            </TextBox>
-            <TextBox HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Enter Port" VerticalAlignment="Top" Width="137" Height="32" Background="Black" FontSize="20" TextChanged="TextBox_TextChanged">
-                <TextBox.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black"/>
-                        <GradientStop Color="#FF5B009E" Offset="1"/>
-                    </LinearGradientBrush>
-                </TextBox.Foreground>
-            </TextBox>
-            <Button Content="Start" HorizontalAlignment="Left" Margin="332,239,0,0" VerticalAlignment="Top" Height="33" Width="56" Background="Black" FontSize="20" Click="Button_Click">
-                <Button.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black"/>
-                        <GradientStop Color="#FF5B009E" Offset="1"/>
-                    </LinearGradientBrush>
-                </Button.Foreground>
-            </Button>
-            <Button Content="Stop" HorizontalAlignment="Left" Margin="412,239,0,0" VerticalAlignment="Top" Height="33" Width="56" Background="Black" FontSize="20" RenderTransformOrigin="0.589,0.456">
-                <Button.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black"/>
-                        <GradientStop Color="#FF5B009E" Offset="1"/>
-                    </LinearGradientBrush>
-                </Button.Foreground>
+            <TextBox x:Name="username" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="136" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Background="{x:Null}" Foreground="White"/>
+            <TextBox x:Name="password" HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="137" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Foreground="White" Background="{x:Null}"/>
+            <Button Content="Login" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" Height="33" Width="56" FontSize="20" Click="Button_Click" Foreground="White" InputScope="Default" Background="{x:Null}">
+                <Button.Style>
+                    <Style/>
+                </Button.Style>
             </Button>
             <Button Content="" HorizontalAlignment="Left" Margin="686,26,0,0" VerticalAlignment="Top" Height="56" Width="56" Click="Button_Click_1" Background="#FF5B009E">
                 <Button.OpacityMask>
