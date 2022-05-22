@@ -26,7 +26,7 @@ namespace Pocketzz
             }
             else if (username.Text == "ASM_Royal")
             {
-                if (password.Text == "Falcons")
+                if (password.Text == "Plint")
                 {
                     Window1 window1 = new Window1();
                     window1.Show();

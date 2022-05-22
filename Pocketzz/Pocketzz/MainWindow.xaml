@@ -5,24 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pocketzz"
         mc:Ignorable="d"
-        Title="PocketZZ : Login" Height="450" Width="800" UseLayoutRounding="True" Background="Black" WindowStyle="SingleBorderWindow" Visibility="Visible" Icon="/Pocket.png" ResizeMode="NoResize">
+        Title="PocketZZ : Login" Height="450" Width="800" UseLayoutRounding="True" Background="Black" WindowStyle="SingleBorderWindow" Visibility="Visible" Icon="/Pocket.png" ResizeMode="NoResize" BorderBrush="Black" OpacityMask="Black">
     <StackPanel Orientation="Vertical">
         <Grid x:Name="PocketZZ" Visibility="Visible" UseLayoutRounding="True" ClipToBounds="True" Height="434" Width="800" Background="#FF181735">
             <Grid.Effect>
                 <DropShadowEffect/>
             </Grid.Effect>
             <Label HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top">
-                <Label Content="PocketZZ" Height="75" Width="243" Background="{x:Null}" FontSize="48" RenderTransformOrigin="0.507,0.587" FontFamily="Algerian">
-                    <Label.Foreground>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black"/>
-                            <GradientStop Color="#FF5B009E" Offset="1"/>
-                        </LinearGradientBrush>
-                    </Label.Foreground>
-                </Label>
+                <Label Content="PocketZZ" Height="75" Width="243" Background="{x:Null}" FontSize="48" RenderTransformOrigin="0.507,0.587" FontFamily="Algerian" Foreground="#FF5B009E"/>
             </Label>
-            <TextBox x:Name="username" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="136" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Background="{x:Null}" Foreground="White"/>
-            <TextBox x:Name="password" HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="137" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Foreground="White" Background="{x:Null}"/>
+            <TextBox x:Name="username" HorizontalAlignment="Center" Margin="0,150,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="136" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Background="{x:Null}" Foreground="White" AutomationProperties.IsOffscreenBehavior="Offscreen" RenderTransformOrigin="0.5,0.5" Padding="15,0,0,0">
+                <TextBox.LayoutTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </TextBox.LayoutTransform>
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+                <TextBox.Style>
+                    <Style/>
+                </TextBox.Style>
+            </TextBox>
+            <TextBox x:Name="password" HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="137" Height="32" FontSize="20" TextChanged="TextBox_TextChanged" Foreground="White" Background="{x:Null}" Padding="18,0,0,0"/>
             <Button Content="Login" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top" Height="33" Width="56" FontSize="20" Click="Button_Click" Foreground="White" InputScope="Default" Background="{x:Null}">
                 <Button.Style>
                     <Style/>

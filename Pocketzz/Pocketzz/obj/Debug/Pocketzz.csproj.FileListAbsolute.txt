@@ -22,3 +22,5 @@ C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window3.g.cs
 C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window3.baml
 C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window4.g.cs
 C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window4.baml
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window5.g.cs
+C:\Users\asmro\source\repos\Pocketzz\Pocketzz\obj\Debug\Window5.baml
